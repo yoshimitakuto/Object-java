@@ -7,7 +7,7 @@ class Student {
     // メソッド（操作）
     void display() {
         System.out.println(name + "さん");
-        System.out.println("英語" + engScore + "点・数学" + mathScore + "点");;
+        System.out.println("英語" + engScore + "点・数学" + mathScore + "点");
     }
 
     void setScore(int eng, int math){
