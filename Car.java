@@ -3,6 +3,7 @@ class Car {
     int no;
     int speed;
 
+    // メソッド
     void setNo(int n){
         no = n;
     }
