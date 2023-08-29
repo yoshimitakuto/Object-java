@@ -1,12 +1,12 @@
-public class Taxi2 extends Car5 {
+public class Taxi2 extends Car6 {
     private int price;
 
     public Taxi2(int no) {
-        super.setNo(no);
+        this(no, 0);
         this.price = 0;
     }
     public Taxi2(int no, int price) {
-        super.setNo(no);
+        super(no);
         this.price = price;
     }
 
