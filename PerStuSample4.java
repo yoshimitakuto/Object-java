@@ -8,6 +8,6 @@ public class PerStuSample4 {
         StudentPerson4 stu2 = new StudentPerson4("田中", BASE_NO + 2);
         stu2.display();
 
-        BASE_NO = 2000;
+        // BASE_NO = 2000;
     }
 }
